@@ -19,7 +19,7 @@ How to use
 	
 This will not work.	
 
-3. Add $ngSilentLocation whereever you want:
+3. Add $ngSilentLocation wherever you want:
 
 
       function SomeController($ngSilentLocation)
