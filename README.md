@@ -11,7 +11,7 @@ How to use
 
       var site = angular.module('site', ['module1', 'ngSilent', 'ngRoute']);
 	 
-**IMORTANT**	 
+**IMPORTANT**
 'ngSilent' should be defined before 'ngRoute'.
 
 
