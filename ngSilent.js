@@ -19,9 +19,12 @@
     .factory('$ngSilentLocation', function($location){
         return {
             '$$silentChangePath' : false,
-            'silent' : function(path){
+            'silent' : function(path, needReplace){
                 this.prev = $location.path();
-                $location.path(path);
+                var location = $location.path(path);
+                if (needReplace) {
+                    location.replace();
+                }
                 this.$$silentChangePath = $location.path();     
             },
             'box' : function(i, o){
