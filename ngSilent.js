@@ -21,7 +21,7 @@
             '$$silentChangePath' : false,
             'silent' : function(path, needReplace){
                 this.prev = $location.path();
-                var location = $location.path(path);
+                var location = $location.url(path);
                 if (needReplace) {
                     location.replace();
                 }
