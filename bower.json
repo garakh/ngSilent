@@ -1,0 +1,23 @@
+{
+  "name": "ngSilent",
+  "main": "ngSilent.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/garakh/ngSilent",
+  "description": "Adds silent mode to AngularJS.",
+  "keywords": [
+    "angular",
+    "silent",
+    "location"
+  ],
+  "authors": [
+    "Iliya Garakh <garakh@primepix.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
