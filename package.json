@@ -1,0 +1,25 @@
+{
+  "name": "ngsilent",
+  "version": "1.0.1",
+  "description": "Adds silent mode to AngularJS.",
+  "main": "ngSilent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garakh/ngSilent.git"
+  },
+  "keywords": [
+    "angular",
+    "router",
+    "silent",
+    "reload"
+  ],
+  "author": "garakh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garakh/ngSilent/issues"
+  },
+  "homepage": "https://github.com/garakh/ngSilent#readme"
+}
