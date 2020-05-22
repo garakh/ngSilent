@@ -28,6 +28,10 @@
                 this.$$silentChangePath = $location.path();
             },
             'box' : function(i, o){
+                
+                if(!o || !o[i])
+                  return;
+                
                 if(o[i].__silentModeMarker)
                     return;
 
